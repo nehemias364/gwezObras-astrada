@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 10%;
+  width: 100%;
+}
+
+.NavBar img{
+  max-width: 120px;
+  max-height: 120px;
+  margin-left: 20px;
+}
+
+.NavBar h1{
+  color: rgb(5, 53, 53);
+}
+
+.NavBar ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.NavBar ul li{
+  list-style: none;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(49, 168, 162);
+  border:rgb(49, 168, 162) solid 5px;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.NavBar ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.NavBar ul li:hover{
+  border: rgb(18, 107, 103) solid 5px;
+}
